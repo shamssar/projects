@@ -1,0 +1,33 @@
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: #BDE4F4;
+    font-family: sans-serif;
+  }
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #bc6b6ba5;
+    border-radius: 10px;
+    box-shadow: rgba(211, 32, 205, 0.15) 0px 48px 100px 0px;
+    resize: horizontal;
+    overflow: hidden;
+    width: 300px;
+  }
+  
+  .thumb {
+    flex: 1 1 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 183);
+  }
+  .content {
+    flex: 2 1 300px;
+    background: #f7e9fb;
+    padding: 1rem 2rem;
+  }
+  .content h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
